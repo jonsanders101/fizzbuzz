@@ -20,4 +20,8 @@ describe 'fizzbuzz' do
   it 'returns "fizzbuzz" when passed any multiple of 3 and 5' do
     expect(fizzbuzz(15 * rand(1..100))).to eq 'fizzbuzz'
   end
+
+  it 'returns "number" if not passed a multiple of 3, 5 or 15' do
+    expect(fizzbuzz(7)).to eq 7
+  end
 end
