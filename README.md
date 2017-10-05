@@ -1,3 +1,3 @@
 # FizzBuzz
-#
-# Implementing FizzBuzz in pairs using TDD.
+
+Implementing FizzBuzz in pairs using TDD.
